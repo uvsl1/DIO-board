@@ -3,6 +3,7 @@ package org.uvsl.persistence.dao;
 
 import com.mysql.cj.jdbc.StatementImpl;
 import lombok.RequiredArgsConstructor;
+import org.uvsl.dto.BoardColumnDTO;
 import org.uvsl.persistence.entity.BoardColumnEntity;
 import org.uvsl.persistence.entity.CardEntity;
 

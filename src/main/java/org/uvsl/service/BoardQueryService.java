@@ -1,6 +1,7 @@
 package org.uvsl.service;
 
 import lombok.AllArgsConstructor;
+import org.uvsl.dto.BoardDetailsDTO;
 import org.uvsl.persistence.dao.BoardColumnDAO;
 import org.uvsl.persistence.dao.BoardDAO;
 import org.uvsl.persistence.entity.BoardEntity;
