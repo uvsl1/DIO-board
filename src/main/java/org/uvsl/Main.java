@@ -1,6 +1,7 @@
 package org.uvsl;
 
 import org.uvsl.persistence.migration.MigrationStrategy;
+import org.uvsl.ui.MainMenu;
 
 import java.sql.SQLException;
 
@@ -11,5 +12,6 @@ public class Main {
         try(var connection = getConnection()){
             new MigrationStrategy(connection).executeMigration();
         }
+        new MainMenu().execute();
     }
 }
