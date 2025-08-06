@@ -1,12 +1,14 @@
 package org.uvsl.ui;
 
 import lombok.AllArgsConstructor;
+import org.uvsl.dto.BoardColumnInfoDTO;
 import org.uvsl.persistence.entity.BoardColumnEntity;
 import org.uvsl.persistence.entity.BoardEntity;
 import org.uvsl.persistence.entity.CardEntity;
 import org.uvsl.service.BoardColumnQueryService;
 import org.uvsl.service.BoardQueryService;
 import org.uvsl.service.CardQueryService;
+import org.uvsl.service.CardService;
 
 import java.sql.SQLException;
 import java.util.Scanner;
