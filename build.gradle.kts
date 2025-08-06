@@ -3,7 +3,7 @@ plugins {
     id("application")
 }
 
-group = "org.example"
+group = "org.uvsl"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -19,7 +19,7 @@ dependencies {
 }
 
 application {
-    mainClass = "org.example.Main"
+    mainClass = "org.uvsl.Main"
 }
 
 tasks.test {
